@@ -1,0 +1,212 @@
+[
+  {
+    "id": 1,
+    "title": "Efficient Fine-Tuning of Large Language Models with Low-Rank Adapters",
+    "abstract": "We study parameter-efficient fine-tuning methods that inject small trainable matrices into frozen transformer weights, reducing memory usage while retaining downstream task performance across several benchmarks.",
+    "category": "NLP",
+    "year": 2019
+  },
+  {
+    "id": 2,
+    "title": "A Survey of Retrieval-Augmented Generation Techniques",
+    "abstract": "This survey categorizes approaches that combine dense retrieval with generative language models, comparing indexing strategies, retriever training objectives, and their effect on factual accuracy.",
+    "category": "NLP",
+    "year": 2021
+  },
+  {
+    "id": 3,
+    "title": "Contrastive Pretraining for Sentence Embeddings",
+    "abstract": "We propose a contrastive objective for learning sentence-level representations that improves semantic similarity search without requiring labeled paraphrase pairs.",
+    "category": "NLP",
+    "year": 2023
+  },
+  {
+    "id": 4,
+    "title": "Vision Transformers for Small Dataset Regimes",
+    "abstract": "We examine how patch-based transformer architectures perform when trained from scratch on limited image datasets, and propose data augmentation strategies to close the gap with convolutional networks.",
+    "category": "Computer Vision",
+    "year": 2020
+  },
+  {
+    "id": 5,
+    "title": "Self-Supervised Depth Estimation from Monocular Video",
+    "abstract": "A framework that learns to predict per-pixel depth from unlabeled video sequences by enforcing photometric consistency between adjacent frames.",
+    "category": "Computer Vision",
+    "year": 2022
+  },
+  {
+    "id": 6,
+    "title": "Diffusion Models for Image Inpainting",
+    "abstract": "We adapt denoising diffusion probabilistic models to the inpainting task, conditioning the reverse process on unmasked pixels to produce coherent completions.",
+    "category": "Computer Vision",
+    "year": 2024
+  },
+  {
+    "id": 7,
+    "title": "Graph Neural Networks for Fraud Detection in Financial Transactions",
+    "abstract": "We model transaction networks as graphs and apply message-passing neural networks to identify anomalous subgraphs indicative of fraudulent activity.",
+    "category": "Applied ML",
+    "year": 2018
+  },
+  {
+    "id": 8,
+    "title": "Anomaly Detection in Network Traffic Using Autoencoders",
+    "abstract": "An unsupervised approach that learns a compressed representation of normal network flow data, flagging traffic with high reconstruction error as potentially malicious.",
+    "category": "Security",
+    "year": 2023
+  },
+  {
+    "id": 9,
+    "title": "Detecting Prompt Injection Attacks in LLM Applications",
+    "abstract": "We introduce a two-stage detection pipeline combining pattern-based heuristics with a secondary language model classifier to identify adversarial instructions embedded in user input.",
+    "category": "Security",
+    "year": 2022
+  },
+  {
+    "id": 10,
+    "title": "Adversarial Robustness of Deep Neural Networks: A Review",
+    "abstract": "We review methods for generating adversarial examples and defending against them, discussing the trade-off between robustness and clean-data accuracy.",
+    "category": "Security",
+    "year": 2021
+  },
+  {
+    "id": 11,
+    "title": "Reinforcement Learning for Warehouse Robot Path Planning",
+    "abstract": "We train a policy using proximal policy optimization to navigate a simulated warehouse environment, minimizing travel time while avoiding collisions with dynamic obstacles.",
+    "category": "Reinforcement Learning",
+    "year": 2020
+  },
+  {
+    "id": 12,
+    "title": "Offline Reinforcement Learning from Logged Bandit Feedback",
+    "abstract": "We study policy learning from historical interaction logs without further environment access, addressing distribution shift through conservative value estimation.",
+    "category": "Reinforcement Learning",
+    "year": 2019
+  },
+  {
+    "id": 13,
+    "title": "Federated Learning for Privacy-Preserving Mobile Keyboard Prediction",
+    "abstract": "A system that trains a shared language model across many devices without centralizing raw user text, aggregating model updates using secure averaging.",
+    "category": "Applied ML",
+    "year": 2023
+  },
+  {
+    "id": 14,
+    "title": "Knowledge Distillation for Deploying Compact Language Models",
+    "abstract": "We transfer the predictive behavior of a large teacher model into a smaller student model, enabling low-latency inference on resource-constrained devices.",
+    "category": "NLP",
+    "year": 2022
+  },
+  {
+    "id": 15,
+    "title": "Multimodal Fusion for Video Captioning",
+    "abstract": "We combine visual, audio, and text features using cross-attention layers to generate natural language descriptions of short video clips.",
+    "category": "Multimodal",
+    "year": 2024
+  },
+  {
+    "id": 16,
+    "title": "Explainable AI Techniques for Credit Scoring Models",
+    "abstract": "We compare feature attribution methods for tree-based and neural credit risk models, evaluating their usefulness for regulatory compliance and customer communication.",
+    "category": "Applied ML",
+    "year": 2021
+  },
+  {
+    "id": 17,
+    "title": "Time Series Forecasting with Temporal Convolutional Networks",
+    "abstract": "We propose a dilated causal convolution architecture for multi-step forecasting that captures long-range dependencies more efficiently than recurrent baselines.",
+    "category": "Applied ML",
+    "year": 2020
+  },
+  {
+    "id": 18,
+    "title": "Semantic Segmentation for Autonomous Driving in Adverse Weather",
+    "abstract": "We evaluate segmentation model robustness under fog, rain, and low-light conditions, and propose a domain adaptation technique using synthetic weather augmentation.",
+    "category": "Computer Vision",
+    "year": 2023
+  },
+  {
+    "id": 19,
+    "title": "Instruction Tuning for Aligning Language Models with User Intent",
+    "abstract": "We fine-tune a pretrained language model on a curated set of instruction-response pairs, improving its ability to follow open-ended natural language commands.",
+    "category": "NLP",
+    "year": 2022
+  },
+  {
+    "id": 20,
+    "title": "Vector Database Indexing Strategies for Large-Scale Similarity Search",
+    "abstract": "We benchmark approximate nearest neighbor indexing structures, including graph-based and quantization-based methods, for retrieval latency and recall trade-offs.",
+    "category": "Systems",
+    "year": 2019
+  },
+  {
+    "id": 21,
+    "title": "Speech Emotion Recognition Using Spectrogram-Based CNNs",
+    "abstract": "We convert raw audio into mel-spectrograms and train a convolutional classifier to detect emotional states from short speech segments.",
+    "category": "Audio",
+    "year": 2024
+  },
+  {
+    "id": 22,
+    "title": "Zero-Shot Text Classification with Natural Language Inference Models",
+    "abstract": "We reformulate topic classification as an entailment task, allowing a pretrained NLI model to classify text into arbitrary label sets without task-specific training.",
+    "category": "NLP",
+    "year": 2021
+  },
+  {
+    "id": 23,
+    "title": "Neural Architecture Search for Edge Device Deployment",
+    "abstract": "We search over a constrained space of lightweight architectures under latency and memory budgets, using a differentiable search strategy to accelerate the process.",
+    "category": "Systems",
+    "year": 2020
+  },
+  {
+    "id": 24,
+    "title": "Detecting Machine-Generated Text with Statistical Fingerprints",
+    "abstract": "We analyze token-level probability distributions to distinguish text generated by language models from human-written text, without access to the generating model.",
+    "category": "NLP",
+    "year": 2023
+  },
+  {
+    "id": 25,
+    "title": "Causal Inference for A/B Testing in Recommendation Systems",
+    "abstract": "We apply causal graph methods to correct for selection bias in observational recommendation data, improving the reliability of offline experiment evaluation.",
+    "category": "Applied ML",
+    "year": 2022
+  },
+  {
+    "id": 26,
+    "title": "Continual Learning Without Catastrophic Forgetting",
+    "abstract": "We propose a regularization method that constrains updates to parameters important for previously learned tasks, enabling sequential task learning in a single model.",
+    "category": "Machine Learning",
+    "year": 2019
+  },
+  {
+    "id": 27,
+    "title": "Prompt Engineering Strategies for Few-Shot Reasoning Tasks",
+    "abstract": "We systematically compare chain-of-thought, self-consistency, and retrieval-augmented prompting strategies on multi-step arithmetic and logical reasoning benchmarks.",
+    "category": "NLP",
+    "year": 2018
+  },
+  {
+    "id": 28,
+    "title": "Synthetic Data Generation for Low-Resource Named Entity Recognition",
+    "abstract": "We use a generative language model to create labeled training examples for entity recognition in domains with scarce annotated data.",
+    "category": "NLP",
+    "year": 2024
+  },
+  {
+    "id": 29,
+    "title": "Energy-Efficient Training of Deep Learning Models",
+    "abstract": "We measure the carbon footprint of common training pipelines and evaluate techniques such as mixed-precision training and gradient checkpointing for reducing energy consumption.",
+    "category": "Systems",
+    "year": 2023
+  },
+  {
+    "id": 30,
+    "title": "Cross-Lingual Transfer for Low-Resource Machine Translation",
+    "abstract": "We leverage shared multilingual representations to improve translation quality for language pairs with limited parallel corpora.",
+    "category": "NLP",
+    "year": 2021
+  }
+]

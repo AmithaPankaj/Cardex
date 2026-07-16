@@ -1,0 +1,39 @@
+:root {
+  --paper: #f4f0e6;
+  --card: #fffdf8;
+  --ink: #23241d;
+  --ink-soft: #5c5a4d;
+  --rule: #d8d0ba;
+  --navy: #33465c;
+  --brass: #8a6f42;
+  --brass-tint: #efe6d0;
+  color-scheme: light;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  background: var(--paper);
+  color: var(--ink);
+  font-family: 'Inter', system-ui, sans-serif;
+}
+
+#root {
+  min-height: 100vh;
+}
+
+button {
+  font-family: inherit;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  * {
+    animation: none !important;
+    transition: none !important;
+  }
+}
